@@ -3,7 +3,18 @@
     
 }
 
+header {
+    background-image: url('resources/images/motorcyclepic.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
 
+.profilepic {
+    width: auto;
+    height: 3rem;
+}
 
 
 
