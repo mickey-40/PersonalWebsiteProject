@@ -4,21 +4,29 @@
 }
 
 header {
-    background-image: url('resources/images/motorcyclepic.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-color: bisque;
     
 }
 
 .profilepic {
-    width: auto;
-    height: 3rem;
+    
 }
 
+.aboutme {
+    background-color: cadetblue;
+}
 
+.skills {
+    background-color: cornflowerblue;
+}
 
+.projects {
+    background-color: darkgray;
+}
 
+footer {
+    background-color: darkkhaki;
+}
 
 
 /*Viewports between 320px and 480px*/
