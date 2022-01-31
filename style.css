@@ -15,7 +15,7 @@ header {
 }
 .picheader {
     height: auto;
-    max-width: 100px;
+    max-width: 200px;
     border-radius: 50%;
     position: absolute;
     margin: auto;
@@ -32,44 +32,32 @@ ul {
 
 }
 
-h1 {
+h1, h2 {
     width: 100%;
     text-align: center;
 }
 
-
-
-.profilepic {
-    height: auto;
-    max-width: 300px;
-    border-radius: 50%;
-}
-
-body {
-   
-    
-}
-
-.aboutme {
+#aboutme {
+    border: solid red;
     background-color: cadetblue;
+    padding: 1rem;
 }
 
-.skills {
+#skills {
     background-color: cornflowerblue;
 }
 
-.projects {
-    background-color: darkgray;
+#projects {
+    background-color: rgb(182, 42, 42);
 }
 
 footer {
-    background-color: darkkhaki;
+    background-color: rgb(57, 26, 197);
 }
 
-body article {
-    display: flex;
 
-}
+
+
 
 /*Viewports between 320px and 480px*/
 @media only screen and (min-width: 320px)and (max-width: 480px) {
