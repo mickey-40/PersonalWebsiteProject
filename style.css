@@ -3,13 +3,33 @@
     background-color: bisque;
 }
 
-header, ul {
+header {
     display: flex;
     background-color: bisque;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     
+
+    
+}
+.picheader {
+    height: auto;
+    max-width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+
+}
+
+ul {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-grow: 2;
+    flex-direction: row;
+    padding: 0 10%;
+    
+
 }
 
 h1 {
@@ -17,13 +37,12 @@ h1 {
     text-align: center;
 }
 
-ul li{
-    min-width:fit-content;
-}
+
 
 .profilepic {
     height: auto;
     max-width: 300px;
+    border-radius: 50%;
 }
 
 body {
