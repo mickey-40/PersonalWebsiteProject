@@ -4,24 +4,24 @@
 }
 
 header {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    /* flex-direction: row; */
     /* background-color: bisque; */
-    justify-content: center;
-    align-items: center;
+    border: solid red;
+    /* justify-content: center;
+    align-items: center; */
     /* flex-wrap: wrap; */
     background-image: url('resources/images/houstonbackground.jpg');
     background-size: auto;
 }
 
 .picheader {
-    height: auto;
     max-width: 200px;
     border-radius: 50%;
-    position: relative;
-    left: auto;
-    right: auto;
-    top: 15px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
 
 }
 
@@ -31,34 +31,56 @@ ul {
     flex-grow: 2;
     flex-direction: row;
     padding: 0 10%;
+    background-color: transparent;
+
     
 
 }
 li {
     padding: 1rem;
+    list-style-type: none;
+    background: rgb(182, 42, 42, 0.5)
+
 }
 
 h1, h2 {
     /* width: 100%; */
     text-align: center;
+    background-color: transparent;
 }
 
 #aboutme {
     border: solid red;
     background-color: cadetblue;
     padding: 1rem;
+    max-width: 50%;
+    justify-content: center;
 }
 
 #skills {
     background-color: cornflowerblue;
+    border: solid red;
+    padding: 1rem;
+    max-width: 50%;
 }
 
 #projects {
     background-color: rgb(182, 42, 42);
+    border: solid red;
+    padding: 1rem;
+    max-width: 50%;
 }
 
 footer {
     background-color: rgb(57, 26, 197);
+    border: solid red;
+    
+
+}
+
+#aboutme, #projects, #skills, footer {
+    margin: auto;
+    margin: auto;
 }
 
 
