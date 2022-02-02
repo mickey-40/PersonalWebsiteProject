@@ -5,14 +5,8 @@
 
 header {
     display: grid;
-    /* flex-direction: row; */
-    /* background-color: bisque; */
-    border: solid red;
-    /* justify-content: center;
-    align-items: center; */
-    /* flex-wrap: wrap; */
     background-image: url('resources/images/houstonbackground.jpg');
-    background-size: auto;
+    background-size: 100%;
 }
 
 .picheader {
@@ -39,41 +33,36 @@ ul {
 li {
     padding: 1rem;
     list-style-type: none;
-    background: rgb(182, 42, 42, 0.5)
-
+    background-color: transparent;
+    font-size: 20px;
+}
+a {
+    background-color: transparent;
 }
 
-h1, h2 {
-    /* width: 100%; */
+h1, h2, h6 {
     text-align: center;
     background-color: transparent;
 }
 
 #aboutme {
-    border: solid red;
-    background-color: cadetblue;
     padding: 1rem;
     max-width: 50%;
     justify-content: center;
 }
 
 #skills {
-    background-color: cornflowerblue;
-    border: solid red;
     padding: 1rem;
     max-width: 50%;
 }
 
 #projects {
-    background-color: rgb(182, 42, 42);
-    border: solid red;
     padding: 1rem;
     max-width: 50%;
 }
 
 footer {
-    background-color: rgb(57, 26, 197);
-    border: solid red;
+    
     
 
 }
